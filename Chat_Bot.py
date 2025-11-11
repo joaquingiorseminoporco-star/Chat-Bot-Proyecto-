@@ -3,7 +3,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config(page_title="Chat Bot Joaquin", page_icon="🔥")
-st.title("Mi primera aplicación con Streamlit, Att: Joaquín")
+st.title("ChatJPG (Joaquín G. Porco)")
 
 nombre = st.text_input("Cual es tu nombre?")
 if st.button("Saludar!"):
@@ -91,4 +91,5 @@ if __name__=="__main__":
 
 # Correr streamlit con la terminal de Python
 # py -m streamlit run Chat_Bot.py
+
 
