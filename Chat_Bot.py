@@ -11,7 +11,7 @@ if st.button("Saludar!"):
 
 #Designo los modelos a utilizar
 
-MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b']
+MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile']
 
 
 def configurar_pagina():
@@ -91,5 +91,6 @@ if __name__=="__main__":
 
 # Correr streamlit con la terminal de Python
 # py -m streamlit run Chat_Bot.py
+
 
 
